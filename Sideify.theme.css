@@ -1,0 +1,29 @@
+/**
+ * @name Sideify
+ * @author notazurerl
+ * @description Optimizes and fixes theme color not loading in sidebar when listening to Spotify.
+ * @version 1.4
+ * @invite PDQPdFKgjQ
+ * @website https://azure.page.gd/
+ */
+#vc-spotify-player {
+    background: transparent !important;
+}
+#vc-spotify-progress-bar {
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+#vc-spotify-progress-bar [class*="bar"],
+#vc-spotify-progress-bar [class*="barFill"] {
+    border-radius: 4px !important;
+}
+#vc-spotify-player img {
+    border-radius: 8px !important;
+}
+#vc-spotify-player [class*="button"],
+#vc-spotify-player [class*="controls"] {
+    margin-top: -2px !important;
+}
+#vc-spotify-player [class*="controls"] {
+    margin-bottom: 8px !important;
+}
